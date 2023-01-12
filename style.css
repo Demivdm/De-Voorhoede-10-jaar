@@ -1,0 +1,25 @@
+.grid{
+    flex-direction: column;
+}
+
+*{
+    box-sizing: border-box;
+    line-height: 29px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    background-color: rgb(252, 239, 197);
+    margin: 1%;
+    
+}
+h1, h2, h3, p{
+    color: #0000FF;
+}
+h1{
+    font-size: 2rem;
+}
+img{
+    max-width: 100%;
+}
+.Yellow-hiephiep{
+    background-color: yellow;
+}
