@@ -1,9 +1,17 @@
-.grid{
-    flex-direction: column;
+body{
+    display: grid;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --bigletters: 2rem; 
+    --smallletters: 25px;
 }
 
 *{
-    box-sizing: border-box;
+    
     line-height: 29px;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
@@ -15,11 +23,18 @@ h1, h2, h3, p{
     color: #0000FF;
 }
 h1{
-    font-size: 2rem;
+    font-size:var(--bigletters);
 }
 img{
     max-width: 100%;
 }
 .Yellow-hiephiep{
     background-color: yellow;
+}
+
+@media (min-width: 450px){
+    img{
+        width: 50%;
+    }
+
 }
