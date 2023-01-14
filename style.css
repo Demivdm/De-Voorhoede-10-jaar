@@ -4,11 +4,23 @@ body{
     box-sizing: border-box;
 }
 
+/* variabele */
+
 :root{
 
     --bigletters: 2rem; 
     --smallletters: 25px;
-    --white: #fff
+    --white: #fff;
+
+    /* button styles */
+    --button-color: #000dff;
+    --button-border: 20%;
+    
+}
+
+button{
+    background-color: var(--button-color);
+    border-radius: var(--button-border);
 }
 
 *{
@@ -44,7 +56,7 @@ section > span > p{
     background-color: var(--white);
 }
 
-
+/* media query */
 
 @media (min-width: 45rem){
     img{
