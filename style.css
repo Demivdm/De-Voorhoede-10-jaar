@@ -22,6 +22,7 @@ body{
 }
 h1, h2, h3, p{
     color: #0000FF;
+    margin: 0 auto;
 }
 
 h1{
@@ -34,9 +35,15 @@ img{
     background-color: yellow;
 }
 
-.white-box-background{
+section > span > h2{
+    background-color: var(--white);
+    
+}
+
+section > span > p{
     background-color: var(--white);
 }
+
 
 
 @media (min-width: 45rem){
