@@ -1,6 +1,7 @@
 body{
-    display: grid;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -14,7 +15,7 @@ body{
 
     /* button styles */
     --button-color: #000dff;
-    --button-border: 20%;
+    --button-border: 1em;
     
 }
 
@@ -25,20 +26,21 @@ button{
 
 *{
     
-    line-height: 29px;
+    line-height: 1.5rem;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     background-color: rgb(252, 239, 197);
     margin: 1%;
     
 }
-h1, h2, h3, p{
+h1, h2, h3, h5, p{
     color: #0000FF;
     margin: 0 auto;
 }
 
 h1{
     font-size:var(--bigletters);
+    line-height: 1em;
 }
 img{
     max-width: 100%;
@@ -47,20 +49,62 @@ img{
     background-color: yellow;
 }
 
-section > span > h2{
+/* introduction styling */
+.intro-box{
+   
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  
+}
+.intro-image{
+    width: 100%;
+    max-width: 440px;
+   
+}
+
+.intro{
+ margin-top: -2em;
+}
+
+.intro-header{
     background-color: var(--white);
+    padding: .5em;
+    height: 2em;
+  margin: 0 0 0 5em;
+    width: 90%;
+   
     
 }
 
-section > span > p{
+.intro-text{
+    padding: 1.5em;
+    max-width: 440px;
     background-color: var(--white);
 }
 
-/* media query */
+/* facts styling */
 
-@media (min-width: 45rem){
-    img{
-        max-width: 50%;
-    }
+.facts-list {
+    text-align: center;
+    
+}
+.facts-content > li{
 
+    list-style-type: none;
+    line-height: 2em;
+    background-color: yellow;
+    color: blue;
+    border-radius: 1em;
+    margin-bottom: .5em;
+    
+    
+}
+li{
+    padding: 0 auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
 }

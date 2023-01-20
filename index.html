@@ -13,37 +13,41 @@
 
 
     <header>
+        <h5>Lustrum</h5>
         <h1>De Voorhoede bestaat 10 jaar</h1>
             <img class="voorhoedelogo" src="https://www.datocms-assets.com/6524/1653896048-de-voorhoede-open-graph.png" alt="">
     </header>
 
-    <section>
-    <img class="imagesize" src="https://www.datocms-assets.com/6524/1654255896-copy-of-voorhoede-borrel-2020-1.jpg" alt="">
-    <span class="white-box-background">
-            <h2>De toekomst van front-end</h2>
-                 <p>Op 1 oktober 2022 bestaat De Voorhoede alweer 10 jaar: een lustrum! De afgelopen jaren is onze organisatie flink gegroeid: in kantoor, kennis en collega's. Er is veel veranderd. Niet alleen bij De Voorhoede, maar ook op front-end gebied. Natuurlijk hebben we ook heel veel plannen voor de komende jaren. Blik met ons terug op de eerste 10 jaar en kijk mee naar onze voorspellingen voor de toekomst."</p>
-     </span>        
-</section>
+    <article class="intro-box">
+    <img class="imagesize intro-image" src="https://www.datocms-assets.com/6524/1654255896-copy-of-voorhoede-borrel-2020-1.jpg" alt="">
+   <section class="intro">
+            <h2 class="intro-header">De toekomst van front-end</h2>
+                 <p class="intro-text">Op 1 oktober 2022 bestaat De Voorhoede alweer 10 jaar: een lustrum! De afgelopen jaren is onze organisatie flink gegroeid: in kantoor, kennis en collega's. Er is veel veranderd. Niet alleen bij De Voorhoede, maar ook op front-end gebied. Natuurlijk hebben we ook heel veel plannen voor de komende jaren. Blik met ons terug op de eerste 10 jaar en kijk mee naar onze voorspellingen voor de toekomst."</p>
+                </section>   
+    </article>
 
-        <section>
-            <p>10 jaar de Voorhoede</p>
-            <p>1 CTO</p>
-            <p>2 kantoren in Delft en Amsterdam</p>
-            <p>30 collega's in dienst</p>
-            <p>7 tech leads</p>
-            <p>85 blogs geschreven</p>
-            <p>500 projecten opgeleverd</p>
-            <p>33 bomen geplant</p>
-            <p>19 meetups georganiseerd</p>
-            <p>8 masterclasses gegeven</p>
-            <p>136 code classes</p>
-            <p>87 code talks</p>
+        <section class="facts-list">
+            <h2 class="facts-header">Cijfers en feiten</h2>
+            <ul class="facts-content">
+                <li>10 jaar de Voorhoede</li>
+                <li>1 CTO</li>
+                <li>2 kantoren in Delft en Amsterdam</li>
+                <li>30 collega's in dienst</li>
+                <li>7 tech leads</li>
+                <li>85 blogs geschreven</li>
+                <li>500 projecten opgeleverd</li>
+                <li>33 bomen geplant</li>
+                <li>19 meetups georganiseerd</li>
+                <li>8 masterclasses gegeven</li>
+                <li>136 code classes</li>
+                <li>87 code talks</li>
+            </ul>
         </section>
 
-    <section>
-        <img class="imagesize" id="bigger-image" src="https://www.datocms-assets.com/6524/1651831740-sam_8931.jpg" alt="">
-        <h2>Onze visie op frontend</h2>
-        <p>Dit jaar bestaat De Voorhoede 10 jaar. In al die jaren is front-end gegroeid van een niche naar een onderdeel van alles. Wij vinden het erg leuk om koplopers te zijn en kijken nu naar wat de toekomst van front-end ons gaat brengen.</p>
+    <section class="intro-box vision">
+        <img class="imagesize" src="https://www.datocms-assets.com/6524/1651831740-sam_8931.jpg" alt="">
+        <h2 class="intro-header">Onze visie op frontend</h2>
+        <p class="intro-text">Dit jaar bestaat De Voorhoede 10 jaar. In al die jaren is front-end gegroeid van een niche naar een onderdeel van alles. Wij vinden het erg leuk om koplopers te zijn en kijken nu naar wat de toekomst van front-end ons gaat brengen.</p>
         <button>Lees meer over de toekomst van frontend</button>
     </section>
 
@@ -82,9 +86,15 @@
     
     <section>
         <form action="">
-            <label for="">Mijn naam is</label>
+            <label for="name">Mijn naam is</label>
+            <input type="text" for="name" placeholder="naam">
+
             <label for="emailadres">Mijn e-mailadres is</label>
-            <textarea name="" id="" cols="30" rows="10">Mijn bericht</textarea>
+            <input type="text" for="emailadres" placeholder="emailadres">
+
+
+            <label for="message">Mijn bericht</label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="type hier jouw bericht"></textarea>
             <button>Versturen </button>
 
         </form>
