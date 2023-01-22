@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 /* variabele */
@@ -19,9 +20,13 @@ body{
     
 }
 
+
+/* element styling */
+
 button{
     background-color: var(--button-color);
     border-radius: var(--button-border);
+    color: var(--white);
 }
 
 *{
@@ -45,9 +50,11 @@ h1{
 img{
     max-width: 100%;
 }
-.Yellow-hiephiep{
-    background-color: yellow;
+
+.text-color{
+    color: black;
 }
+
 
 /* introduction styling */
 .intro-box{
@@ -100,11 +107,105 @@ img{
     
     
 }
-li{
-    padding: 0 auto;
+/* interview styling */
+
+.rounded-image{
+    border-radius: 50%;
+    width: 18em;
+    height: 18em;
+    /* code hieronder werkt niet goed navragen waarom niet center */
+    display: flex;
+    align-items: center;
+}
+
+/* timeline */
+
+/* photo album */
+
+    /* foto's krijg ik niet naast elkaar */
+
+.photo-album{
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-album-title{
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: .5em;
+    
+}
+
+
+
+.image-together{
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    object-fit: cover;
+    
+    
+    
+}
+
+/* Felicitatie form */
+
+
+.felicitatie-form{
+    position: relative;
+}
+
+    /* waarom zit de background color eronder maar bij het form niet? */
+.yellow-hiephiep{
+    background-color: yellow;
+    height: 1rem;
 }
 
 form{
     display: flex;
     flex-direction: column;
+    color: #0000FF;
+    background-color: white;
+    margin-left: 2em;
+}
+form input{
+   border-bottom: 3px solid #0000FF;
+   border-top: 0;
+   border-right: 0;
+   border-left: 0;
+   background-color: white;
+}
+
+form textarea{
+
+    border-bottom: 3px solid #0000FF;
+   border-top: 0;
+   border-right: 0;
+   border-left: 0;
+   background-color: white;
+   height: 200px;
+    
+}
+label{
+    background-color: white;
+}
+
+form button{
+    margin: 1em auto 1em 1em;
+    border-radius: 5px;
+    padding: 0 .5em 0 .5em;
+    border: 0px;
+}
+
+/* felicitaties */
+.felicitatie-border{
+    border-left: 1px solid grey;
+    margin: .2em 0 1em 1em;
+    padding-left: 1em;
+}
+
+.smaller-text{
+    color: black;
+    font-size: small;
 }
