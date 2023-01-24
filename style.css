@@ -60,6 +60,9 @@ img{
     color: black;
 }
 
+.button-spacing{
+    margin: 1rem 0 1rem 0;
+}
 
 /* introduction styling */
 
@@ -68,9 +71,10 @@ img{
     height: 200px;
     float: right;
 }
-.intro-box{
+.intro-box, .intro-boxL{
     position: relative;
     max-width: 440px;
+   
 }
 
 .intro-header{
@@ -78,11 +82,36 @@ img{
     background-color: white;
 }
 
+.intro-text{
+    background-color: white;
+    max-width: 440px;
+    margin-bottom: 1em;
+}
+
 .intro-box > h2 {
     bottom: 0;
     right: 0;
     position: absolute;
 }
+
+.intro-boxL > h2 {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+.intro-box-position{
+    margin: 0 auto;
+}
+
+.intro-boxL{
+    margin: 0 auto;
+}
+
+.intro-text-position{
+    margin: 0 auto;
+}
+
+
 
 /* facts styling */
 
@@ -106,8 +135,13 @@ img{
     border-radius: 1em;
     margin-bottom: .5em;
     max-width: fit-content;
+    padding: 0 1rem 0 1rem;
     
     
+}
+
+li > span{
+    font-weight: 900;
 }
 /* interview styling */
 .interview-image-wrapped{
@@ -122,25 +156,34 @@ img{
 
     width: 440px;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
  
+}
+.interview-position{
+    margin-left: 1rem;
 }
 
 /* timeline */
 
 /* photo album */
 
-    /* foto's krijg ik niet naast elkaar */
 
 .photo-album{
     display: flex;
     max-width: 440px;
     flex-wrap: wrap;
+    /* foto's hebben rechts nog ruimte */
+    margin: 1rem 0 1rem 0;
 }
 
 .photo-album > img{
     width: 220px;
+    
+}
+
+.photo-album-title{
+    font-weight: bold;
+    text-align: center;
 }
 
 
@@ -153,7 +196,8 @@ img{
     height: 20rem;
     padding: 1rem;
     max-width: 440px;
-    width: 80%;
+    width: 85%;
+    margin-left: .5rem;
 
 
 }
