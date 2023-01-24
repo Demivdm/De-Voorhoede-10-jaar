@@ -174,18 +174,6 @@ li > span{
     position: relative;
 }
 
-
-.timeline-single-itemR{
-    padding-right: calc(50% + 30px);
-    text-align: right;
-    position: relative;
-}
-
-.timeline-single-itemL{
-    padding-left: calc(50% + 30px);
-    position: relative;
-}
-
 .timeline-items::before{
     content: '';
     position: absolute;
@@ -203,6 +191,26 @@ li > span{
     position: absolute;
     left: calc(50% - 6px) ;
     top: 10px;
+}
+
+
+.timeline-items::before{
+    left: 7px;
+}
+.timeline-single-itemL{
+  padding-left: 37px; 
+  margin-bottom: 1em;
+}
+
+.timeline-single-itemR{
+    
+    padding-left: 37px;
+    text-align: left;
+    margin-bottom: 1em;
+
+}
+.timeline-dot{
+    left: 0;
 }
 
 /* photo album */
@@ -297,21 +305,36 @@ form button{
 }
 
 
-@media(min-width:450px){
-
-    .timeline-items::before{
-        left: 7px;
-    }
-    .timeline-single-itemL{
-      padding-left: 37px;  
-    }
+@media(min-width:500px){
 
     .timeline-single-itemR{
-        padding-right: 0px;
-        text-align: left;
-
+        padding-right: calc(50% + 26px);
+        text-align: right;
+        position: relative;
     }
+    
+    .timeline-single-itemL{
+        padding-left: calc(50% + 26px);
+        position: relative;
+    }
+    
+    .timeline-items::before{
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 100%;
+
+        background-color: purple;
+        left: calc(50% + 1px);
+    }
+    
     .timeline-dot{
-        left: 0;
+        height: 16px;
+        width: 16px;
+        background-color: #0000FF;
+        border-radius: 50%;
+        position: absolute;
+        left: calc(50% - 6px) ;
+        top: 10px;
     }
 }
