@@ -1,6 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-weight: 400;
 }
 
 body{
@@ -9,20 +10,20 @@ body{
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    background-color: rgb(252, 239, 197);
+    background-color: #FFFECA;
 }
 
 /* variabele */
 
 :root{
 
-    --bigletters: 2rem; 
+    --thicker: 900; 
     --smallletters: 25px;
     --white: #fff;
 
     /* button styles */
     --button-color: #000dff;
-    --button-border: 1em;
+    --button-border: 5px;
     
 }
 
@@ -33,10 +34,10 @@ button{
     background-color: var(--button-color);
     border-radius: var(--button-border);
     color: var(--white);
+    border: 0;
 }
 
 *{
-    
     line-height: 1.5rem;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
@@ -49,7 +50,8 @@ h1, h2, h3, h5, p{
 }
 
 h1{
-    font-size:var(--bigletters);
+    font-size: 2em;
+    font-weight: var(--thicker);
     line-height: 1em;
 }
 img{
@@ -62,6 +64,9 @@ img{
 
 .button-spacing{
     margin: 1rem 0 1rem 0;
+}
+header{
+    margin-left: .5rem;
 }
 
 /* introduction styling */
@@ -78,14 +83,16 @@ img{
 }
 
 .intro-header{
-
+    font-weight: var(--thicker);
     background-color: white;
+    padding-right: 2em;
 }
 
 .intro-text{
-    background-color: white;
     max-width: 440px;
     margin-bottom: 1em;
+    padding: 1em 2em 1em 2em;
+    background-color: white;
 }
 
 .intro-box > h2 {
@@ -105,13 +112,20 @@ img{
 
 .intro-boxL{
     margin: 0 auto;
+    
 }
 
 .intro-text-position{
     margin: 0 auto;
+    padding-left: 0;
+    background-color: white;
 }
 
-
+.button-spacing{
+    top: 0;
+    margin: 0 5em 1em 1.5em;
+    font-size: 17px;
+}
 
 /* facts styling */
 
@@ -130,7 +144,7 @@ img{
 
     list-style-type: none;
     line-height: 2em;
-    background-color: yellow;
+    background-color: #FFE400;
     color: blue;
     border-radius: 1em;
     margin-bottom: .5em;
@@ -140,8 +154,14 @@ img{
     
 }
 
+.facts-header{
+    margin: 1em 0 .5em 2em;
+    padding: 0 1rem 0 1rem;
+    font-weight: var(--thicker);
+}
+
 li > span{
-    font-weight: 900;
+    font-weight: var(--thicker);
 }
 /* interview styling */
 .interview-image-wrapped{
@@ -152,15 +172,28 @@ li > span{
     margin: 0 auto;
    
 }
+
+
 .interview-box{
 
     width: 440px;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column; 
+    margin-top: 3em;  
  
 }
 .interview-position{
     margin-left: 1rem;
+}
+
+.interview-position > h3{
+    font-weight: var(--thicker);
+}
+
+.interview-position > button{
+margin: 1em 0;
+font-size: 17px;
+font-weight: var(--thicker);
 }
 
 /* timeline */
@@ -179,7 +212,7 @@ li > span{
     position: absolute;
     width: 2px;
     height: 100%;
-    background-color: purple;
+    background-color: #0000FF;
     left: calc(50% + 1px);
 }
 
@@ -218,28 +251,48 @@ li > span{
 
 .photo-album{
     display: flex;
-    max-width: 440px;
     flex-wrap: wrap;
-    /* foto's hebben rechts nog ruimte */
-    margin: 1rem 0 1rem 0;
+    max-width: 480px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   
+   
 }
 
 .photo-album > img{
-    width: 220px;
+    width: 50%;
     
 }
 
 .photo-album-title{
-    font-weight: bold;
+    font-weight: var(--thicker);
     text-align: center;
 }
 
+.photo-album-wrap{
+    width: 50%;
+    height: 283px;
+}
+.image-together{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.timeline-date{
+    font-size: 18px;
+    color: black;
+}
+
+.time-stamps-text{
+    font-weight: var(--thicker);
+}
 
 /* Felicitatie form */
 
 
 .yellow-hiephiep{
-    background-color: yellow;
+    background-color: #FFE400;
     position: absolute;
     height: 20rem;
     padding: 1rem;
@@ -291,6 +344,12 @@ form button{
     border: 0px;
 }
 
+.yellow-hiephiep > h2 {
+    font-weight: var(--thicker);
+    font-size: 39px;
+    margin-bottom: .2em;
+}
+
 /* felicitaties */
 
 .felicitatie-border{
@@ -305,7 +364,52 @@ form button{
 }
 
 
-@media(min-width:500px){
+@media(min-width:600px){
+
+    /* header */
+    .header-position {
+        display: flex;
+        justify-content: right;
+        gap: 20%;
+    }
+    .header-text{
+        width: 30%;
+    }
+    /* intro */
+
+
+    /* factslist */
+
+    .facts-list > ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 60rem;
+        justify-content: center;
+        margin: 1em auto;
+        gap: 1%;
+    }
+
+    /* interview */
+
+    .interview-box{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    
+    }
+
+    .rounded-image{
+        border-radius: 50%;
+    }
+    .interview-image-wrapped{
+        width:50rem;
+        height: 50rem;
+        overflow-y: hidden;
+        border-radius: 0%;
+    }
+
+    /* timeline */
 
     .timeline-single-itemR{
         padding-right: calc(50% + 26px);
@@ -324,7 +428,7 @@ form button{
         width: 2px;
         height: 100%;
 
-        background-color: purple;
+        background-color: #0000FF;
         left: calc(50% + 1px);
     }
     
