@@ -71,12 +71,17 @@ header{
     margin-left: .5rem;
 }
 
+.header-text{
+    margin-right: 20rem;
+}
+
 /* introduction styling */
 
-.voorhoedelogo{
-    width: 300px;
-    height: 200px;
-    float: right;
+
+.voorhoede-logo{
+   width: 200px;
+   float: right;
+   
 }
 .intro-box, .intro-boxL{
     position: relative;
@@ -85,7 +90,7 @@ header{
 }
 .intro-box-position{
     width: 90%;
-    margin: 7em auto;
+    margin: 2em auto;
 }
 
 .intro-header{
@@ -126,8 +131,8 @@ header{
 }
 
 .button-spacing{
+    top: 0;
     font-size: 17px;
-    margin: 0 auto;
 }
 
 /* facts styling */
@@ -262,10 +267,7 @@ font-weight: var(--thicker);
    
 }
 
-.photo-album > img{
-    width: 50%;
-    
-}
+
 
 .photo-album-title{
     font-weight: var(--thicker);
