@@ -83,14 +83,18 @@ header{
    float: right;
    
 }
-.intro-box, .intro-boxL{
+.intro-box{
     position: relative;
     max-width: 30rem;
    
 }
+
+.intro-boxL{
+    position: relative;
+    max-width: 30em;
+}
 .intro-box-position{
-    width: 90%;
-    margin: 2em auto;
+    margin: 0 auto;
 }
 
 .intro-header{
@@ -98,6 +102,12 @@ header{
     background-color: white;
     padding-right: 2em;
 }
+
+.intro-headerL{
+    padding-left: 2em;
+    padding-right: .5em;
+}
+
 
 .intro-text{
     max-width: 30rem;
@@ -126,7 +136,6 @@ header{
 
 .intro-text-position{
     margin: 0 auto;
-    padding-left: 0;
     background-color: white;
 }
 
@@ -140,6 +149,7 @@ header{
 .facts-list {
     text-align: center;
     max-width: 30rem;
+    margin: 0 auto;
     
 }
 
@@ -187,11 +197,11 @@ li > span{
     width: 30em;
     display: flex;
     flex-direction: column; 
-    margin-top: 3em;  
+    margin: 2em auto  
  
 }
 .interview-position{
-    margin-left: 1rem;
+    margin: 2em auto;
 }
 
 .interview-position > h3{
@@ -260,9 +270,9 @@ font-weight: var(--thicker);
 .photo-album{
     display: flex;
     flex-wrap: wrap;
-    max-width: 30em;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    
    
    
 }
@@ -308,16 +318,19 @@ font-weight: var(--thicker);
 
 }
 
-
+.felicitatie-form{
+    margin: 2em;
+}
 form{
     display: flex;
     flex-direction: column;
     color: #0000FF;
     background-color: white;
-    margin: 6rem 1rem 1rem 3rem; 
+    margin: 6rem 0 1rem 3rem; 
     padding: 1rem;
     position: relative;
     max-width: 30rem;
+   
     
 }
 form input{
