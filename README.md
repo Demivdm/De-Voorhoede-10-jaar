@@ -1,16 +1,67 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# De Voorhoede 10 jaar
+Dit project omvat een pagina om het 10-jarige bestaan van de Voorhoede te vieren.
+
+## Inhoudsopgave
+
+Opdrachtgever
+
+Beschrijving
+
+Kenmerken
+
+Installatie
+
+Gebruik
+
+Licentie
+
+## Opdrachtgever
+
+![download](https://user-images.githubusercontent.com/112861166/214814439-1e7208b5-2007-438d-9587-7788203da906.png)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+
+Op deze pagina kun je highlights van de Voorhoede van de afgelopen 10 jaar bekijken. Verder kun je met het form onder in de pagina een felicitatie typen. Daarnaast is er een interview en een paar artikelen die je kunt lezen.
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
 
+Dit project is gemaakt met HTML en CSS. Verder staat hieronder een korte lijst met gebruikte tools en middelen.
+
+Tools
+
+🖥️ Visual Studio Code
+
+🔥 Figma
+
+✍ Pen & Papier
+
+Gebruikte technieken
+
+📟 HTML
+
+⌚ CSS
+
+## 🎩 MoSCoW checklist
+
+Must have
+  mobiele versie
+  desktop versie
+  tijdlijn
+  foto album
+  felicitatie formulier
+
+Should have
+  json file om data uit te halen
+
+Could have
+  ballonnen animatie als je op de felicitatie knop klikt
+
+Won't have
+  nothing is impossible
+
+tip! check mijn LINK NAAR ISSUES om te kijken waar ik momenteel mee bezig ben.
 
 ## Licentie
 
