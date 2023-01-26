@@ -173,8 +173,11 @@ header{
 }
 
 .facts-header{
-    margin: 1em 0 .5em 2em;
+    margin: 1em 0 1em 2em;
     padding: 0 1rem 0 1rem;
+}
+
+.facts-header > h2, h3{
     font-weight: var(--thicker);
 }
 
