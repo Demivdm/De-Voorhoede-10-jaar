@@ -1,21 +1,24 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # De Voorhoede 10 jaar
+
+SCREENSHOT VAN WEBSITE TOEVOEGEN
 Dit project omvat een pagina om het 10-jarige bestaan van de Voorhoede te vieren.
 
 ## Inhoudsopgave
 
-Opdrachtgever
+* [Opdrachtgever](https://github.com/Demivdm/De-Voorhoede-10-jaar#opdrachtgever) 
 
-Beschrijving
+* [Beschrijving](https://github.com/Demivdm/De-Voorhoede-10-jaar#beschrijving) 
 
-Kenmerken
+* [Kenmerken](https://github.com/Demivdm/De-Voorhoede-10-jaar#kenmerken) 
 
-Installatie
+* [Installatie](https://github.com/Demivdm/De-Voorhoede-10-jaar#installatie)
 
-Gebruik
+* [MoSCoW checklist](https://github.com/Demivdm/De-Voorhoede-10-jaar#-moscow-checklist)
 
-Licentie
+* [Licentie](https://github.com/Demivdm/De-Voorhoede-10-jaar#licentie)
+
 
 ## Opdrachtgever
 
@@ -29,13 +32,13 @@ Op deze pagina kun je highlights van de Voorhoede van de afgelopen 10 jaar bekij
 
 Dit project is gemaakt met HTML en CSS. Verder staat hieronder een korte lijst met gebruikte tools en middelen.
 
-Tools
+** Tools **
 
 🖥️ Visual Studio Code
 
 🔥 Figma
 
-✍ Pen & Papier
+✍ Pen, papier en tekentablet
 
 Gebruikte technieken
 
@@ -43,25 +46,39 @@ Gebruikte technieken
 
 ⌚ CSS
 
+## Installatie
+
+1. Clone of download deze respository.
+2. Ga naar de root directory van het project.
+3. Open het index.html bestand, hierdoor wordt de homepagina van de website geopend.
+
 ## 🎩 MoSCoW checklist
 
-Must have
-  mobiele versie
+** Must have **
+  
+  ✅Mobiele versie
+  
   desktop versie
-  tijdlijn
-  foto album
-  felicitatie formulier
+  
+  ✅Tijdlijn
+  
+  ✅Foto album
+  
+  ✅Felicitatie formulier
 
-Should have
-  json file om data uit te halen
+** Should have **
 
-Could have
-  ballonnen animatie als je op de felicitatie knop klikt
+  ❌json file om data uit te halen
 
-Won't have
-  nothing is impossible
+** Could have **
 
-tip! check mijn LINK NAAR ISSUES om te kijken waar ik momenteel mee bezig ben.
+  ❌Ballonnen animatie als je op de felicitatie knop klikt
+
+** Won't have **
+
+  🦸‍♀️Nothing is impossible
+
+_ tip! _ check mijn [issues](https://github.com/Demivdm/De-Voorhoede-10-jaar/issues) om te kijken waar ik momenteel mee bezig ben.
 
 ## Licentie
 
