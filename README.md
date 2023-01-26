@@ -32,7 +32,7 @@ Op deze pagina kun je highlights van de Voorhoede van de afgelopen 10 jaar bekij
 
 Dit project is gemaakt met HTML en CSS. Verder staat hieronder een korte lijst met gebruikte tools en middelen.
 
-** Tools **
+**Tools**
 
 🖥️ Visual Studio Code
 
@@ -54,11 +54,11 @@ Gebruikte technieken
 
 ## 🎩 MoSCoW checklist
 
-** Must have **
+**Must have**
   
   ✅Mobiele versie
   
-  desktop versie
+  ❌Desktop versie
   
   ✅Tijdlijn
   
@@ -66,19 +66,19 @@ Gebruikte technieken
   
   ✅Felicitatie formulier
 
-** Should have **
+**Should have**
 
   ❌json file om data uit te halen
 
-** Could have **
+**Could have**
 
   ❌Ballonnen animatie als je op de felicitatie knop klikt
 
-** Won't have **
+**Won't have**
 
   🦸‍♀️Nothing is impossible
 
-_ tip! _ check mijn [issues](https://github.com/Demivdm/De-Voorhoede-10-jaar/issues) om te kijken waar ik momenteel mee bezig ben.
+_tip!_ check mijn [issues](https://github.com/Demivdm/De-Voorhoede-10-jaar/issues) om te kijken waar ik momenteel mee bezig ben.
 
 ## Licentie
 
