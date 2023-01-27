@@ -2,7 +2,8 @@
 
 # De Voorhoede 10 jaar
 
-SCREENSHOT VAN WEBSITE TOEVOEGEN
+![WhatsApp Image 2023-01-27 at 10 59 11](https://user-images.githubusercontent.com/112861166/215067175-d8a5348a-750b-4f19-b843-d6e0bcc72ae5.jpeg)
+
 Dit project omvat een pagina om het 10-jarige bestaan van de Voorhoede te vieren.
 
 ## Inhoudsopgave
