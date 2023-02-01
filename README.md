@@ -1,7 +1,7 @@
 
 # De Voorhoede 10 jaar
 
-![WhatsApp Image 2023-01-27 at 10 59 11](https://user-images.githubusercontent.com/112861166/215067175-d8a5348a-750b-4f19-b843-d6e0bcc72ae5.jpeg)
+![phone mockup de voorhoede1](https://user-images.githubusercontent.com/112861166/216025544-6846f632-9bde-4252-ab30-3823002b51c0.jpg)
 
 Dit project omvat een pagina om het 10-jarige bestaan van de Voorhoede te vieren.
 
