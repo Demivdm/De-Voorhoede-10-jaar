@@ -24,6 +24,8 @@ Dit project omvat een pagina om het 10-jarige bestaan van de Voorhoede te vieren
 
 ![download](https://user-images.githubusercontent.com/112861166/214814439-1e7208b5-2007-438d-9587-7788203da906.png)
 
+De Voorhoede maakt web apps, websites, prototypes, tools, integraties. Daarnaast onderzoeken en adviseren, helpen en sturen ze. En ze zijn bezig met bouwen, testen, evalueren, trainen, coachen, leiden.
+
 ## Beschrijving
 
 Op deze pagina kun je highlights van de Voorhoede van de afgelopen 10 jaar bekijken. Verder kun je met het form onder in de pagina een felicitatie typen. Daarnaast is er een interview en een paar artikelen die je kunt lezen.
@@ -40,7 +42,7 @@ Dit project is gemaakt met HTML en CSS. Verder staat hieronder een korte lijst m
 
 ✍ Pen, papier en tekentablet
 
-Gebruikte technieken
+**Gebruikte technieken**
 
 📟 HTML
 
