@@ -57,6 +57,7 @@ h1{
     font-size: 2em;
     font-weight: var(--thicker);
     line-height: 1em;
+    max-width: 50vw;
 }
 
 
@@ -71,9 +72,7 @@ header{
     margin-left: .5rem;
 }
 
-.header-text{
-    margin-right: 20rem;
-}
+
 
 /* introduction styling */
 
@@ -393,9 +392,9 @@ form button{
         justify-content: right;
         gap: 20%;
     }
-    .header-text{
+    /* .header-text{
         width: 30%;
-    }
+    } */
     /* intro */
 
 
